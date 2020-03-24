@@ -105,7 +105,10 @@ def search_and_download(search_term:str, target_path:str, number_images=500):
 target_path = 'images/'
 s1 = 'maggi pack in retail stores'
 s2 = 'bhujia packet'
-
+s3 = 'bikaneri bhujia packet'
+s4 = 'maggi packet'
 
 search_and_download(s1, target_path)
-# search_and_download(s2, target_path)
+search_and_download(s2, target_path)
+search_and_download(s3, target_path)
+search_and_download(s4, target_path)
